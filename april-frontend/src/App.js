@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import React from 'react';
-//import './src/App.css';
+import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -59,7 +59,7 @@ export default function App() {
                     });
                 }
             });
-    }, []);
+    }, [token]);
 
     // console.log(user);
     return (

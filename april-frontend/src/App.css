@@ -1,42 +1,41 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
-
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
@@ -622,74 +621,69 @@ section{
 
 /* media queries  */
 
-@media (max-width:991px){
-
-    html{
+@media (max-width: 991px) {
+    html {
         font-size: 55%;
     }
 
-    .header .header-1{
-        padding:2rem;
+    .header .header-1 {
+        padding: 2rem;
     }
 
-    section{
-        padding:3rem 2rem;
+    section {
+        padding: 3rem 2rem;
     }
-
 }
 
-@media (max-width:768px){
-
-    html{
+@media (max-width: 768px) {
+    html {
         scroll-padding-top: 0;
     }
 
-    body{
+    body {
         padding-bottom: 6rem;
     }
 
-    .header .header-2{
-        display:none;
+    .header .header-2 {
+        display: none;
     }
 
-    .bottom-navbar{
+    .bottom-navbar {
         display: block;
     }
 
-    #search-btn{
+    #search-btn {
         display: inline-block;
     }
 
-    .header .header-1{
+    .header .header-1 {
         box-shadow: var(--box-shadow);
         position: relative;
     }
 
-    .header .header-1 .search-form{
-        position:absolute;
-        top:-115%; right:2rem;
+    .header .header-1 .search-form {
+        position: absolute;
+        top: -115%;
+        right: 2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
     }
 
-    .header .header-1 .search-form.active{
-        top:115%;
+    .header .header-1 .search-form.active {
+        top: 115%;
     }
 
-    .home .row .content{
+    .home .row .content {
         text-align: center;
     }
 
-    .home .row .content h3{
+    .home .row .content h3 {
         font-size: 3.5rem;
     }
-
 }
 
-@media (max-width:450px){
-
-    html{
+@media (max-width: 450px) {
+    html {
         font-size: 50%;
     }
-
-} */
+}
